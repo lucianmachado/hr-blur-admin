@@ -43,8 +43,8 @@
     "wrench": "~1.5.8"
   },
   "scripts": {
-    "postinstall": "npm i -g bower && bower cache clean && bower install",
-    "web": "node web.js"
+    "postinstall": "bower install",
+    "start": "node web.js"
   },
   "dependencies": {
     "bower": "^1.8.0",
