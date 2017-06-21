@@ -43,6 +43,12 @@
     "wrench": "~1.5.8"
   },
   "scripts": {
-    "postinstall": "bower install"
+    "postinstall": "bower install",
+    "web": "node web.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "gzippo": "^0.2.0",
+    "morgan": "^1.8.2"
   }
 }
